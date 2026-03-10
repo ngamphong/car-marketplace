@@ -1,6 +1,7 @@
 import { supabase } from "../../../lib/supabase"
 import ImageGallery from "../../components/ImageGallery"
 import CarCard from "../../components/CarCard"
+export const dynamic = 'force-dynamic' // หรือใส่ 'force-static' ถ้าต้องการทำ static จริงๆ
 
 export default async function CarDetail({ params }: { params: Promise<{ id: string }> }) {
 
