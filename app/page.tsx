@@ -3,7 +3,6 @@
 import { useEffect,useState } from "react"
 import { supabase } from "../lib/supabase"
 import CarCard from "./components/CarCard"
-export const dynamic = 'force-dynamic' // หรือใส่ 'force-static' ถ้าต้องการทำ static จริงๆ
 
 export default function Home(){
 
