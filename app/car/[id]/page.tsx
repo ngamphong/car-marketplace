@@ -206,3 +206,7 @@ className="block text-center bg-green-400 text-white py-3 rounded-lg font-semibo
 )
 
 }
+
+export function generateStaticParams() {
+  return [];
+}
